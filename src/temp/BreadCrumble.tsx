@@ -2,7 +2,7 @@ import React from 'react';
 import {Link,  Breadcrumbs} from '@mui/material';
 import {useNavigate} from "react-router-dom";
 
-import * as Path from '../../modules/routing/path';
+import * as Path from '../modules/routing/path';
 
 export interface IBreadCrumbleProps {
     breadCrumble: any,

@@ -9,7 +9,7 @@ import {styled} from "@mui/material/styles";
 import RouteService from "../../modules/routing/helpers/routeService";
 import {getTitleRoute} from "../../modules/routing/helpers/getTitleRoute";
 import {getBreadCrumbleRoute} from "../../modules/routing/helpers/getBreadCrumbleRoute";
-import BreadCrumble from "../../ui/atom/BreadCrumble";
+import BreadCrumble from "../../temp/BreadCrumble";
 import PageTitle from "../../ui/atom/PageTitle";
 import routes from "../../modules/routing/routes";
 

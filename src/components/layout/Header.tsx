@@ -1,5 +1,6 @@
 import React from 'react';
 import {IBreadCrumble} from "../../modules/routing/helpers/getBreadCrumbleRoute";
+import Menu from "../../temp/menu/Menu";
 
 export interface IHeaderProps {
     pathName: string,
@@ -14,8 +15,7 @@ const Header = (
 ) => {
 
     return (
-        <div></div>
-        //<Menu breadCrumble={breadCrumble}/>
+        <Menu breadCrumble={breadCrumble}/>
     );
 };
 
