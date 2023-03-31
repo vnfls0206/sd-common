@@ -19,7 +19,9 @@
         "declaration": true,
         "typeRoots": ["index.d.ts", "node_modules/@types"]
 },
-    "files": ["index.ts"],
+    "files": [
+        "index.ts"
+    ],
     "include": ["src/ui"],
     "exclude": ["node_modules"],
     "references": [{ "path": "./tsconfig.node.json"}]

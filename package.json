@@ -3,17 +3,24 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "main": "./lib/esm/index.js",
+  "module": "./lib/esm/index.js",
+  "main": "index.ts",
+  "types": "./lib/esm/index.d.ts",
   "files": [
     "lib/"
   ],
-  "module": "./lib/esm/index.js",
+  "exports": {
+    "./plugin": {
+      "types": "./lib/esm/index.d.ts",
+      "module":  "./lib/esm/index.js",
+      "default": "./dist/plugin/index.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "tsc-build": "tsc -p tsconfig-esm.json",
-    "postinstall": "mv ./lib/* ./ && rmdir ./lib"
+    "tsc-build": "tsc -p tsconfig-esm.json"
   },
   "dependencies": {
     "@emotion/react": "11.10.4",
