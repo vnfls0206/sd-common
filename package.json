@@ -10,11 +10,7 @@
     "lib/"
   ],
   "exports": {
-    "./plugin": {
-      "types": "./lib/esm/index.d.ts",
-      "module":  "./lib/esm/index.js",
-      "default": "./dist/plugin/index.js"
-    }
+    "./": "./lib/"
   },
   "scripts": {
     "dev": "vite",
