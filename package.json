@@ -3,6 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "main": "./lib/esm/index.js",
   "files": [
     "lib/"
   ],
@@ -11,7 +12,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "tsc-build": "tsc -p tsconfig-esm.json"
+    "tsc-build": "tsc -p tsconfig-esm.json",
+    "postinstall": "mv ./lib/* ./ && rmdir ./lib"
   },
   "dependencies": {
     "@emotion/react": "11.10.4",
