@@ -7,7 +7,7 @@
   "module": "./lib/esm/index.js",
   "main": "./lib/esm/index.js",
   "files": [
-    "/lib/*.*"
+    "/lib"
   ],
   "exports": {
     "./*": "./lib/esm/index.js"
