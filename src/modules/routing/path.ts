@@ -6,3 +6,5 @@ export const SIGN_UP_PATH = '/sign-up';
 
 // TEST
 export const TEST_PATH = '/test-page';
+
+export const BUTTON_PATH = '/button-page';

@@ -10,9 +10,16 @@ const adminMenu: IMenuItem[] = [
         path: Path.TEST_PATH,
         icon: SettingsSuggestRoundedIcon,
         children: [
-
+            {
+                title: '버튼',
+                key:'button',
+                path: Path.BUTTON_PATH,
+                icon: Brightness1Icon,
+                children: [],
+            },
         ],
     },
+
 ]
 
 export default adminMenu;

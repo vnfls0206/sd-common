@@ -1,6 +1,7 @@
 import React, {ReactComponentElement} from 'react';
 import * as Path from './path';
 import {Home, NotFound, SignIn, Test} from './componentLoader';
+import ButtonPage from "../../pages/ButtonPage";
 
 
 export interface IRoutes {
@@ -19,6 +20,14 @@ const routes: IRoutes[] = [
         pageTitle: 'DashBoard',
         path: Path.HOME_PATH,
         component: <Home/>,
+        privilege: '',
+        children: [],
+    },
+    {
+        title: 'Button',
+        pageTitle: 'Button',
+        path: Path.BUTTON_PATH,
+        component: <ButtonPage/>,
         privilege: '',
         children: [],
     },
