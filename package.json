@@ -5,7 +5,6 @@
 
   "type": "module",
   "module": "./lib/esm/index.js",
-  "main": "./lib/esm/index.js",
   "files": [
     "/lib"
   ],
@@ -16,7 +15,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "tsc-build": "tsc -p tsconfig-esm.json"
+    "tsc-build": "tsc -p tsconfig-esm.json && git add ./lib && git commit -m \"lib\" && VAR=$(git log -1 --format=\"%h\") && git checkout lib "
   },
   "dependencies": {
     "@emotion/react": "11.10.4",
