@@ -2,8 +2,5 @@
 export interface IPageTitleProps {
     pageTitle: string;
 }
-declare const PageTitle: {
-    ({ pageTitle, }: IPageTitleProps): JSX.Element;
-    defaultProps: {};
-};
+declare const PageTitle: ({ pageTitle, }: IPageTitleProps) => JSX.Element;
 export default PageTitle;
