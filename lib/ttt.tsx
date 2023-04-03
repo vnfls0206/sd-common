@@ -1,11 +1,11 @@
 import React from 'react';
 
-export interface ILastlastProps {
+export interface ITttProps {
     //children?: React.ReactNode,
 }
 
-const Lastlast = (
-    {}: ILastlastProps
+const Ttt = (
+    {}: ITttProps
 ) => {
 
     return (
@@ -14,4 +14,4 @@ const Lastlast = (
     );
 };
 
-export default Lastlast;
+export default Ttt;
