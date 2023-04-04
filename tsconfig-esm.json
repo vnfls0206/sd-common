@@ -22,7 +22,7 @@
     "jsx": "react-jsx",
     "declaration": true,
     "typeRoots": [
-      "src/index.d.ts",
+      "./@types",
       "node_modules/@types"
     ]
   },
