@@ -1,10 +1,7 @@
 import React from 'react';
+import {IPageTitleProps} from "../../index";
 
 
-export interface IPageTitleProps {
-    //children?: React.ReactNode,
-    pageTitle:string,
-}
 
 const PageTitle = (
     {
