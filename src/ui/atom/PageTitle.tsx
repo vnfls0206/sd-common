@@ -1,5 +1,9 @@
 import React from 'react';
-import {IPageTitleProps} from "../../types/atom/pageTitle";
+
+export interface IPageTitleProps {
+    //children?: React.ReactNode,
+    pageTitle:string,
+}
 
 const PageTitle = (
     {
@@ -8,7 +12,7 @@ const PageTitle = (
 
     return (
         <React.Fragment>
-            <div>{'수정테스트테스트'}</div>
+            <div>{'index.ts test'}</div>
             <h2 className={'text-2xl opacity-80 mt-7 mb-5'}>
                 {pageTitle}
             </h2>
