@@ -1,6 +1,4 @@
 /// <reference types="react" />
-export interface IPageTitleProps {
-    pageTitle: string;
-}
+import { IPageTitleProps } from "../../index";
 declare const PageTitle: ({ pageTitle, }: IPageTitleProps) => JSX.Element;
 export default PageTitle;
