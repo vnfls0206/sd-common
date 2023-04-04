@@ -1,5 +1,5 @@
 import React from 'react';
-import {IPageTitleProps} from "../../types/atom/";
+import {IPageTitleProps} from "../../types/atom/pageTitle";
 
 const PageTitle = (
     {
