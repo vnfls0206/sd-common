@@ -8,7 +8,7 @@ const PageTitle = (
 
     return (
         <React.Fragment>
-            <div>{'좋아좋아좋아'}</div>
+            <div>{'가나다라마바사'}</div>
             <h2 className={'text-2xl opacity-80 mt-7 mb-5'}>
                 {pageTitle}
             </h2>
