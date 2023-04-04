@@ -8,7 +8,7 @@ const PageTitle = (
 
     return (
         <React.Fragment>
-            <div>{'싫어싫'}</div>
+            <div>{'싫어싫어싫어'}</div>
             <h2 className={'text-2xl opacity-80 mt-7 mb-5'}>
                 {pageTitle}
             </h2>
@@ -16,5 +16,5 @@ const PageTitle = (
     );
 };
 
-어
+
 export default PageTitle;
