@@ -1,28 +1,44 @@
 {
-    "compilerOptions": {
+  "compilerOptions": {
     "target": "es5",
-        "outDir": "./lib",
-        "useDefineForClassFields": true,
-        "lib": ["DOM", "DOM.Iterable", "ESNext"],
-        "allowJs": false,
-        "skipLibCheck": true,
-        "esModuleInterop": false,
-        "allowSyntheticDefaultImports": true,
-        "strict": true,
-        "forceConsistentCasingInFileNames": true,
-        "module": "CommonJS",
-        "moduleResolution": "Node",
-        "resolveJsonModule": true,
-        "isolatedModules": true,
-        "noEmit": false,
-        "jsx": "react-jsx",
-        "declaration": true,
-        "typeRoots": ["index.d.ts", "node_modules/@types"]
-},
-    "files": [
-        "index.ts"
+    "outDir": "./lib",
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
     ],
-    "include": ["src/ui"],
-    "exclude": ["node_modules"],
-    "references": [{ "path": "./tsconfig.node.json"}]
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "typeRoots": [
+      "src/index.d.ts",
+      "node_modules/@types"
+    ]
+  },
+  "files": [
+    "index.ts"
+  ],
+  "types": "src/index.d.ts",
+  "include": [
+    "src/ui"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }
