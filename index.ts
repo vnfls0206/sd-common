@@ -1,3 +1,3 @@
 
-export { default as PageTitle } from './src/ui/atom/PageTitle';
+export { PageTitle } from './src/ui/atom';
 

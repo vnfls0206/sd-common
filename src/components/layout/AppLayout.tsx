@@ -10,7 +10,7 @@ import RouteService from "../../modules/routing/helpers/routeService";
 import {getTitleRoute} from "../../modules/routing/helpers/getTitleRoute";
 import {getBreadCrumbleRoute} from "../../modules/routing/helpers/getBreadCrumbleRoute";
 import BreadCrumble from "../../temp/BreadCrumble";
-import PageTitle from "../../ui/atom/PageTitle/PageTitle";
+import Index from "../../ui/atom/PageTitle";
 import routes from "../../modules/routing/routes";
 
 import {usePageAction} from "../../modules/page/state";
@@ -65,7 +65,7 @@ const AppLayout = (
                             <DrawerHeader/>
                             <div className={'max-w-[124rem] w-full'}>
                                 <div className={'ml-2'}>
-                                    <PageTitle
+                                    <Index
                                         pageTitle={pageTitle}
                                     />
                                     <BreadCrumble
