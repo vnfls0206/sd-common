@@ -1,4 +1,4 @@
 
-export * from './src/ui/atom';
+export {PageTitle, ModalInput} from './src/ui/atom';
 
 export * from './src/ui/table';
