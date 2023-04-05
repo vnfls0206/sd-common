@@ -1,2 +1,2 @@
-import PageTitle from "./atom/PageTitle";
-export { PageTitle };
+export { default } from './atom/PageTitle';
+export * from './atom/PageTitle';
