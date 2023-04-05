@@ -1,5 +1,8 @@
 export {default as TestDiv} from './TestDiv';
 
-export {default as PageTitle} from './PageTitle';
+import PageTitle from './PageTitle';
+import ModalInput from './ModalInput';
 
-export {default as ModalInput} from './ModalInput';
+
+export {PageTitle, ModalInput};
+
