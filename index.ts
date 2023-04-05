@@ -1,3 +1,3 @@
 
-export * from './src/ui/atom';
+export * as atom from './src/ui/atom';
 
