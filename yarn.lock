@@ -2450,10 +2450,6 @@ watchpack@^2.4.0:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
 
-"wave-common-front@https://devtools.ncloud.com/2545393/wave-common-front.git#lib":
-  version "0.0.0"
-  resolved "https://devtools.ncloud.com/2545393/wave-common-front.git#aa38b7c78b5e72caafc2c6ca60fb145af24501cf"
-
 webpack-sources@^3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.3.tgz#2d4daab8451fd4b240cc27055ff6a0c2ccea0cde"

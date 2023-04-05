@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface IPageTitleProps {
+export interface IPageTitleProps {
     //children?: React.ReactNode,
     pageTitle:string,
 }
