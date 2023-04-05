@@ -1,2 +1,1 @@
-export { default } from './atom/PageTitle';
-export * from './atom/PageTitle';
+export { default as PageTitle } from './atom/PageTitle';
