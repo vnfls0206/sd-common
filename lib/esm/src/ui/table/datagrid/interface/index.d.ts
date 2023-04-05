@@ -1,6 +1,6 @@
 import React from 'react';
 import { DataGridProps, GridAlignment, GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
-export declare const headerObj: <T extends string>(filed: T | "id", header: string, headerAline: GridAlignment | undefined, align: GridAlignment | undefined, sortable: boolean, filterable: boolean, flex?: number, renderCell?: ((param: GridRenderCellParams) => React.ReactNode) | undefined) => GridColDef;
+export declare const headerObj: <T extends string>(filed: "id" | T, header: string, headerAline: GridAlignment | undefined, align: GridAlignment | undefined, sortable: boolean, filterable: boolean, flex?: number, renderCell?: ((param: GridRenderCellParams) => React.ReactNode) | undefined) => GridColDef;
 export type IRows<T> = Array<T & {
     id: number | string;
 }>;
