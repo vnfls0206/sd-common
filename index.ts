@@ -1,3 +1,3 @@
 
-export { PageTitle } from './src/ui/atom';
+export * from './src/ui/atom';
 
