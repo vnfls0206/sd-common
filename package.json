@@ -2,14 +2,13 @@
   "name": "wave-common-front",
   "private": true,
   "version": "0.0.0",
-
   "type": "module",
-  "module": "./lib/esm/index.js",
+  "module": "./lib/index.js",
   "files": [
     "/lib"
   ],
   "exports": {
-    "./*": "./lib/esm/index.js"
+    "./*": "./lib/index.js"
   },
   "scripts": {
     "dev": "vite",
