@@ -12,7 +12,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "tsc-build": "git add . && git commit -m \"lib\" && tsc -p tsconfig-esm.json && tsc -p tsconfig-cjs.json && git add ./lib && cp -f package.json ./lib && git commit -m \"lib\" && VAR=$(git rev-parse --verify HEAD) && git checkout -b lib origin/lib && git cherry-pick --strategy=recursive -X theirs $VAR && mv -f ./lib/package.json . &&git commit -m \"lib\" && git push && git checkout master && git branch -D lib"
+    "tsc-build": "git add . && git commit -m \"lib\" && tsc -p tsconfig-esm.json && tsc -p tsconfig-cjs.json && cp -f package.json ./lib && git add ./lib && git commit -m \"lib\" && VAR=$(git rev-parse --verify HEAD) && git checkout -b lib origin/lib && git cherry-pick --strategy=recursive -X theirs $VAR && mv -f ./lib/package.json . &&git commit -m \"lib\" && git push && git checkout master && git branch -D lib"
   },
   "dependencies": {
     "@emotion/react": "11.10.4",
