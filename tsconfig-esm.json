@@ -21,15 +21,15 @@
     "noEmit": false,
     "jsx": "react-jsx",
     "declaration": true,
+
     "typeRoots": [
-      "src/@types",
+      "index.d.ts",
       "node_modules/@types"
     ]
   },
   "files": [
     "index.ts"
   ],
-  "types": "src/index.d.ts",
   "include": [
     "src/ui"
   ],
