@@ -8,7 +8,6 @@ import ReactDataGrid from "./datagrid/ReactDataGrid";
 import TableHeaderContainer from "./component/shared/TableHeaderContainer";
 import TableFooterContainer from "./component/shared/TableFooterContainer";
 import CustomPagination from "./component/shared/CustomPagination";
-import {Table} from "./Table";
 
 
 export interface IUseTableProps {
