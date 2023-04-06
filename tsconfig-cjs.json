@@ -26,10 +26,9 @@
       "index.d.ts",
       "node_modules/@types"
     ],
-    "baseUrl": "src/ui",
     "paths": {
-      "atom/*": ["atom/*"],
-      "table/*": ["table/*"]
+      "atom/*": ["./src/ui/atom/*"],
+      "table/*": ["./src/ui/table/*"]
 
     }
   },
