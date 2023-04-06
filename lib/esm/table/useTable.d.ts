@@ -1,12 +1,12 @@
 import { Dispatch, SetStateAction } from 'react';
 import { GridSizeType, ITableQueryData } from './datagrid/interface';
-import TableHeader from "./component/shared/TableHeader";
+import TableHeader from "./component/TableHeader";
 import CustomColumnTable from "./muitable/CustomColumnTable";
 import RawClickMuiTable from "./muitable/RawClickMuiTable";
 import ReactDataGrid from "./datagrid/ReactDataGrid";
-import TableHeaderContainer from "./component/shared/TableHeaderContainer";
-import TableFooterContainer from "./component/shared/TableFooterContainer";
-import CustomPagination from "./component/shared/CustomPagination";
+import TableHeaderContainer from "./component/TableHeaderContainer";
+import TableFooterContainer from "./component/TableFooterContainer";
+import CustomPagination from "./component/CustomPagination";
 export interface IUseTableProps {
     size?: GridSizeType;
     queryData?: ITableQueryData;

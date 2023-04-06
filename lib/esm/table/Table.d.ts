@@ -23,7 +23,7 @@ export declare const tableContext: {
 };
 declare function Table({ children, useTable }: ITableProps): JSX.Element;
 declare namespace Table {
-    var Header: ({ size, children }: import("./component/shared/TableHeader").ITableHeaderProps) => JSX.Element;
+    var Header: ({ size, children }: import("./component/TableHeader").ITableHeaderProps) => JSX.Element;
     var CustomColumnTable: {
         ({ header, row, style }: import("./muitable/CustomColumnTable").ICustomColumnTableProps): JSX.Element;
         defaultProps: {};
@@ -33,9 +33,9 @@ declare namespace Table {
         defaultProps: {};
     };
     var DataGrid: ({ columns, rows, ...props }: import("./datagrid/ReactDataGrid").IReactDataGridPropsType) => JSX.Element;
-    var HeaderContainer: ({ children, startComponent, className, sort }: import("./component/shared/TableHeaderContainer").ITableHeaderButtonGroupProps) => JSX.Element;
-    var FooterContainer: ({ children, startComponent, sort }: import("./component/shared/TableFooterContainer").ITableFooterContainerProps) => JSX.Element;
-    var CustomPagenation: ({ rowCount, tableQueryData, setTableQueryData, onChange }: import("./component/shared/CustomPagination").ICustomPaginationProps) => JSX.Element;
+    var HeaderContainer: ({ children, startComponent, className, sort }: import("./component/TableHeaderContainer").ITableHeaderButtonGroupProps) => JSX.Element;
+    var FooterContainer: ({ children, startComponent, sort }: import("./component/TableFooterContainer").ITableFooterContainerProps) => JSX.Element;
+    var CustomPagenation: ({ rowCount, tableQueryData, setTableQueryData, onChange }: import("./component/CustomPagination").ICustomPaginationProps) => JSX.Element;
 }
 export { Table };
 export {};
