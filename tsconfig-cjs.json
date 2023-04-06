@@ -33,8 +33,8 @@
   "baseUrl": "src/ui",
 
   "include": [
-    "src/ui/atom",
-    "src/ui/table"
+    "./atom",
+    "./table"
   ],
   "exclude": [
     "node_modules"
