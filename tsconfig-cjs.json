@@ -30,7 +30,6 @@
   "files": [
     "index.ts"
   ],
-  "baseUrl": "src/ui",
   "paths": {
     "atom": ["./src/ui/atom"],
     "table": ["./src/ui/table"]
