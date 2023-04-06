@@ -10,7 +10,7 @@ const TestDiv = (
 
     return (
         <div>
-            {'aaasa'}
+            {''}
         </div>
     );
 };
