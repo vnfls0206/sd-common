@@ -80,8 +80,18 @@ button:focus-visible {
 .container__content{
 
 }
+.container__content_title h2{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  color: var(--muidocs-palette-grey-900, #1A2027);
+  font-weight: 700;
+  scroll-snap-margin-top: calc(var(--MuiDocs-header-height) + 72px);
+  scroll-margin-top: calc(var(--MuiDocs-header-height) + 72px);
+  margin: 40px 0 4px;
+}
 .container__view_area{
-
   position: relative;
   outline: 0px;
   margin: auto;
@@ -94,6 +104,7 @@ button:focus-visible {
   border-style: dashed;
   border-color: rgb(231, 235, 240);
   border-image: initial;
+  border-radius: 10px;
 }
 .container_editor_area{
   padding-top: 20px;
@@ -103,4 +114,7 @@ button:focus-visible {
 .ace_editor{
   width: 1024px !important;
   height: 300px !important;
+}
+.prism-code{
+  border-radius: 10px;
 }

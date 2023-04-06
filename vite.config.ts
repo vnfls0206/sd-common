@@ -1,23 +1,18 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import vitePluginRequire from 'vite-plugin-require'
 import reactRefresh from '@vitejs/plugin-react-refresh'
-
+import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), vitePluginRequire.default(), reactRefresh()],
-  optimizeDeps: {
-    include: ['codemirror'],
-  },
-  css: {
-    // Import PrismJS CSS file
-    preprocessorOptions: {
-      scss: {
-        additionalData: `
-          @import "./node_modules/prismjs/themes/prism-tomorrow.css";
-        `
-      }
+  plugins: [
+    react(),
+    reactRefresh(),
+  ],
+  resolve: {
+    alias: {
+      '@components': path.resolve(__dirname, 'src/components'),
+      '@ui'        : path.resolve(__dirname, 'src/ui')
     }
-  },
+  }
 })
