@@ -35,7 +35,6 @@
   ],
   "include": [
     "./src/atom",
-    "./src/table"
   ],
   "exclude": [
     "node_modules"
