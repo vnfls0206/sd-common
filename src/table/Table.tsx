@@ -1,15 +1,15 @@
 import React from 'react';
 import CustomColumnTable from './muitable/CustomColumnTable';
 import ReactDataGrid from './datagrid/ReactDataGrid';
-import CustomPagination from './component/shared/CustomPagination';
+import CustomPagination from './component/CustomPagination';
 import RawClickMuiTable from './muitable/RawClickMuiTable';
 
 import {StoreApi, create} from 'zustand'
 import createContext from 'zustand/context'
 import {ITableQuery, IUseTable} from "./useTable";
-import TableHeader from "./component/shared/TableHeader";
-import TableHeaderContainer from "./component/shared/TableHeaderContainer";
-import TableFooterContainer from "./component/shared/TableFooterContainer";
+import TableHeader from "./component/TableHeader";
+import TableHeaderContainer from "./component/TableHeaderContainer";
+import TableFooterContainer from "./component/TableFooterContainer";
 
 export interface ITableProps {
     children: React.ReactNode

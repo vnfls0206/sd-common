@@ -1,5 +1,5 @@
 import React, { Dispatch, SetStateAction } from 'react';
-import { ITableQueryData, tableQueryDataObj } from '../../datagrid/interface';
+import { ITableQueryData, tableQueryDataObj } from '../datagrid/interface';
 import PaginationItem from '@mui/material/PaginationItem';
 import { Pagination } from '@mui/material';
 

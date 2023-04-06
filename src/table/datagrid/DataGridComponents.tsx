@@ -1,7 +1,7 @@
 import React from 'react';
 import {GridOverlay, GridSlotsComponent, GridFooterContainer,  GridFooter} from '@mui/x-data-grid';
 
-import CustomCheckBox from '../component/shared/CustomCheckBox';
+import CustomCheckBox from '../component/CustomCheckBox';
 
 import {IDataGridComponentsOption} from './interface';
 
