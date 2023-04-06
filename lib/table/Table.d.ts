@@ -37,5 +37,4 @@ declare namespace Table {
     var FooterContainer: ({ children, startComponent, sort }: import("./component/TableFooterContainer").ITableFooterContainerProps) => JSX.Element;
     var CustomPagenation: ({ rowCount, tableQueryData, setTableQueryData, onChange }: import("./component/CustomPagination").ICustomPaginationProps) => JSX.Element;
 }
-export { Table };
-export {};
+export default Table;
