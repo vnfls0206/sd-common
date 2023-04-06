@@ -26,16 +26,16 @@
       "index.d.ts",
       "node_modules/@types"
     ],
-    "baseUrl": "./src",
-    "paths": {
-      "atom/*": ["atom/*"],
-      "table/*": ["table/*"]
-    },
+    "baseUrl": "./src/ui"
   },
   "files": [
     "index.ts"
   ],
 
+  "include": [
+    "atom",
+    "table"
+  ],
   "exclude": [
     "node_modules"
   ],
