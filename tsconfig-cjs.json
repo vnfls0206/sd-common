@@ -37,8 +37,8 @@
   ],
 
   "include": [
-    "./atom",
-    "./table"
+    "./src/ui/atom",
+    "./src/ui/table"
   ],
   "exclude": [
     "node_modules"
