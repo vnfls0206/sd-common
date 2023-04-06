@@ -6,7 +6,7 @@ import RawClickMuiTable from './muitable/RawClickMuiTable';
 
 import {StoreApi, create} from 'zustand'
 import createContext from 'zustand/context'
-import {ITableQuery, IUseTable} from "./useTable";
+import {ITableQuery, IUseTable} from "./useTable/useTable";
 import TableHeader from "./component/TableHeader";
 import TableHeaderContainer from "./component/TableHeaderContainer";
 import TableFooterContainer from "./component/TableFooterContainer";

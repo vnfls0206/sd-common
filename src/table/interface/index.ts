@@ -1,4 +1,4 @@
-import {IUseTable} from "../useTable";
+import {IUseTable} from "../useTable/useTable";
 import {UseQueryResult} from "react-query";
 
 export interface ITable<T> {

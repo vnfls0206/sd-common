@@ -1,3 +1,3 @@
-export { default } from './ReactDataGrid';
+export * from './ReactDataGrid';
 
 export * from './interface'
