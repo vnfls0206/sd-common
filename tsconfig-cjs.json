@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "outDir": "./lib/cjs",
+    "outDir": "./lib",
     "useDefineForClassFields": true,
     "lib": [
       "DOM",
@@ -30,8 +30,11 @@
   "files": [
     "index.ts"
   ],
+  "baseUrl": "src/ui",
+
   "include": [
-    "src/ui"
+    "src/ui/atom",
+    "src/ui/table"
   ],
   "exclude": [
     "node_modules"
