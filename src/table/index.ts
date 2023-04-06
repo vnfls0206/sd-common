@@ -1,4 +1,4 @@
-export * from './useTable/useTable';
+export * from './useTable';
 
 export * from './Table';
 
