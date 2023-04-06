@@ -11,7 +11,7 @@ const PageTitle = (
 
     return (
         <React.Fragment>
-            <div>{'zzzsz'}</div>
+            <div>{'zzzzsz'}</div>
             <h2 className={'text-2xl opacity-80 mt-7 mb-5'}>
                 {pageTitle}
             </h2>
