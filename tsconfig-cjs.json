@@ -25,17 +25,17 @@
     "typeRoots": [
       "index.d.ts",
       "node_modules/@types"
-    ]
+    ],
+    "baseUrl": "src/ui",
+    "paths": {
+      "atom/*": ["atom/*"],
+      "table/*": ["table/*"]
+
+    }
   },
   "files": [
     "index.ts"
   ],
-  "baseUrl": "src/ui",
-  "paths": {
-    "atom/*": ["atom/*"],
-    "table/*": ["table/*"]
-
-  },
 
   "include": [
     "./atom",
