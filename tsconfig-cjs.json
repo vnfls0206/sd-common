@@ -30,13 +30,17 @@
   "files": [
     "index.ts"
   ],
-  "baseUrl": ".",
+  "baseUrl": "src/ui",
   "paths": {
-    "atom": ["./src/ui/atom"],
-    "table": ["./src/ui/table"]
+    "atom/*": ["atom/*"],
+    "table/*": ["table/*"]
 
   },
 
+  "include": [
+    "./atom",
+    "./table"
+  ],
   "exclude": [
     "node_modules"
   ],
