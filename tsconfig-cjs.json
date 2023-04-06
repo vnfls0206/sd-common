@@ -26,11 +26,11 @@
       "index.d.ts",
       "node_modules/@types"
     ],
+    "baseUrl": "src",
     "paths": {
-      "atom/*": ["./src/ui/atom/*"],
-      "table/*": ["./src/ui/table/*"]
-
-    }
+      "atom/*": ["atom/*"],
+      "table/*": ["table/*"]
+    },
   },
   "files": [
     "index.ts"
