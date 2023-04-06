@@ -42,13 +42,13 @@ const ModalInput = (
     return (
         <MuiInput
             {...register}
-            sx={inputStyle}
-            className={'text-sm w-full h-full  ' + className}
-            disableUnderline
-            onChange={noSpaceFormFunc}
-            defaultValue={defaultValue}
-        />
-    );
+    sx={inputStyle}
+    className={'text-sm w-full h-full  ' + className}
+    disableUnderline
+    onChange={noSpaceFormFunc}
+    defaultValue={defaultValue}
+    />
+);
 };
 
 export default ModalInput;
