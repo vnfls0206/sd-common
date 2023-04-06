@@ -15,7 +15,6 @@ const PageTitle = (
                 {pageTitle}
             </h2>
         </React.Fragment>
-
     );
 };
 
