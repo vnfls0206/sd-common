@@ -22,18 +22,18 @@
     "jsx": "react-jsx",
     "declaration": true,
     "typeRoots": [
-      "index.d.ts",
+      "src/index.d.ts",
       "node_modules/@types"
     ],
-    "baseUrl": "./src/ui/",
+    "rootDir": "./src/"
 
   },
   "files": [
-    "./index.ts"
+    "./src/index.ts"
   ],
   "include": [
-    "./src/ui/atom",
-    "./src/ui/table"
+    "./src/atom",
+    "./src/table"
   ],
 
   "exclude": [

@@ -23,17 +23,19 @@
     "declaration": true,
 
     "typeRoots": [
-      "index.d.ts",
+      "src/index.d.ts",
       "node_modules/@types"
-    ]
+    ],
+    "rootDir": "./src/"
+
   },
 
   "files": [
-    "./index.ts"
+    "./src/index.ts"
   ],
   "include": [
-    "./src/ui/atom",
-    "./src/ui/table"
+    "./src/atom",
+    "./src/table"
   ],
   "exclude": [
     "node_modules"
