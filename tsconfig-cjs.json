@@ -21,22 +21,19 @@
     "noEmit": false,
     "jsx": "react-jsx",
     "declaration": true,
-
     "typeRoots": [
       "index.d.ts",
       "node_modules/@types"
     ],
-    "baseUrl": "./src/ui",
-    "rootDir": "../.."
+    "rootDirs": [
+      "./src/ui/atom",
+      "./src/ui/atom"
+    ]
   },
   "files": [
     "index.ts"
   ],
 
-  "include": [
-    "atom",
-    "table"
-  ],
   "exclude": [
     "node_modules"
   ],
