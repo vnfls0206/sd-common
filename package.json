@@ -2,8 +2,8 @@
   "name": "wave-common-front",
   "private": true,
   "version": "0.0.0",
-  "module": "./index.js",
-  "main": "./cjs/index.js",
+  "module": "./lib/index.js",
+  "main": "./lib/cjs/index.js",
 
 
   "files": [
