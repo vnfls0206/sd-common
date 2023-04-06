@@ -3,7 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "module": "./lib/esm/index.js",
-  "main": "./lib/cjs/index.js",
+  "main": "./lib/index.js",
+
+  "exports": {
+    ".": {
+      "import": "./lib/esm/index.js",
+      "require": "./lib/index.js"
+    }
+  },
+
   "files": [
     "/lib"
   ],
