@@ -26,7 +26,7 @@
       "index.d.ts",
       "node_modules/@types"
     ],
-    "baseUrl": "src",
+    "baseUrl": "./src",
     "paths": {
       "atom/*": ["atom/*"],
       "table/*": ["table/*"]
@@ -36,10 +36,6 @@
     "index.ts"
   ],
 
-  "include": [
-    "./src/ui/atom",
-    "./src/ui/table"
-  ],
   "exclude": [
     "node_modules"
   ],
