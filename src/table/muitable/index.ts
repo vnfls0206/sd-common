@@ -1,6 +1,6 @@
-export { default } from './CustomStyleTable';
-export { default } from './RawClickMuiTable';
-export { default } from './CustomColumnTable';
+export { default as CustomStyleTable } from './CustomStyleTable';
+export { default as RawClickMuiTable } from './RawClickMuiTable';
+export { default as CustomColumnTable } from './CustomColumnTable';
 
 
 export * from './interface'
