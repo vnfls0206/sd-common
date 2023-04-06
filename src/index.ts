@@ -1,3 +1,3 @@
 export * from './atom'
+export * from './table'
 
-export {default as useTable} from './table/useTable'
