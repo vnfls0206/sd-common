@@ -29,7 +29,7 @@
   },
 
   "files": [
-    "index.ts"
+    "./index.ts"
   ],
   "include": [
     "./src/ui/atom",
