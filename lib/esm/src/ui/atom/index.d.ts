@@ -1,6 +1,3 @@
-export { default as TestDiv } from './TestDiv';
-export type { ITestDivProps } from './TestDiv';
-export { default as PageTitle } from './PageTitle';
-export type { IPageTitleProps } from './PageTitle';
-export { default as ModalInput } from './ModalInput';
-export type { IInputProps } from './ModalInput';
+export * as TestDiv from './TestDiv';
+export * as PageTitle from './PageTitle';
+export * as ModalInput from './ModalInput';
