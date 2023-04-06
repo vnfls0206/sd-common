@@ -25,7 +25,7 @@
       "index.d.ts",
       "node_modules/@types"
     ],
-    "rootDir": "./src/ui/",
+    "baseUrl": "./src/ui/",
 
   },
   "files": [
