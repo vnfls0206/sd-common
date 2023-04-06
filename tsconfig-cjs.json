@@ -25,13 +25,15 @@
       "index.d.ts",
       "node_modules/@types"
     ],
-    "rootDirs": [
-      "./src/ui/atom",
-      "./src/ui/atom"
-    ]
+    "rootDir": "./src/ui/",
+
   },
   "files": [
     "index.ts"
+  ],
+  "include": [
+    "./src/ui/atom",
+    "./src/ui/table"
   ],
 
   "exclude": [

@@ -31,10 +31,9 @@
   "files": [
     "index.ts"
   ],
-  "baseUrl": "src/ui",
   "include": [
-    "./atom",
-    "./table"
+    "./src/ui/atom",
+    "./src/ui/table"
   ],
   "exclude": [
     "node_modules"
