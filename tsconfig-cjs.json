@@ -31,11 +31,12 @@
     "index.ts"
   ],
   "baseUrl": "src/ui",
+  "paths": {
+    "atom": ["./src/ui/atom"],
+    "table": ["./src/ui/table"]
 
-  "include": [
-    "./atom",
-    "./table"
-  ],
+  },
+
   "exclude": [
     "node_modules"
   ],
