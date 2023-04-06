@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "outDir": "./lib/esm",
+    "outDir": "./esm",
     "useDefineForClassFields": true,
     "lib": [
       "DOM",
