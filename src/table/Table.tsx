@@ -52,5 +52,4 @@ Table.HeaderContainer = TableHeaderContainer;
 Table.FooterContainer = TableFooterContainer;
 Table.CustomPagenation = CustomPagination;
 
-export {Table};
-export {}
+export default Table;

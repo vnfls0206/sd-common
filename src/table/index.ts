@@ -1,6 +1,6 @@
 export {default as useTable} from './useTable';
 
-export {Table} from './Table';
+export {default as useTable} from './Table';
 
 export {default as TableService} from './service';
 
