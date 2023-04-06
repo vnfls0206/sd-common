@@ -1,6 +1,6 @@
 import React from 'react';
 import { StoreApi } from 'zustand';
-import { ITableQuery, IUseTable } from "./useTable";
+import { ITableQuery, IUseTable } from "./useTable/useTable";
 export interface ITableProps {
     children: React.ReactNode;
     useTable: IUseTable;
