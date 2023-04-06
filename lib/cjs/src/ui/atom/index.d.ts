@@ -1,3 +1,3 @@
-export {default} from './TestDiv';
-export {default} from './PageTitle';
-export {default} from './ModalInput';
+export * as TestDiv from './TestDiv';
+export * as PageTitle from './PageTitle';
+export * as ModalInput from './ModalInput';
