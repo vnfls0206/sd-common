@@ -1,8 +1,8 @@
-export {default as Table} from './useTable';
+export * from './useTable';
 
-export {default as useTable} from './Table';
+export * from './Table';
 
-export {default as TableService} from './service';
+//export {default as TableService} from './service';
 
 export * from './datagrid/interface';
 export * from './muitable/interface';
